@@ -10,7 +10,7 @@ import io
 from pymongo import MongoClient
 
 # MongoDB bağlantısını ayarlayın ve yeni veritabanı ve koleksiyon oluşturun
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://hasan21memis:Teslam98@cluster0.sj7cetd.mongodb.net/?retryWrites=true&w=majority")
 db = client['OCT-DATABASE']
 collection = db['image_labels']
 
